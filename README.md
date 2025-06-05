@@ -1,63 +1,70 @@
-## Authors
-
-- [@Inal Karakhanli](https://www.github.com/nickforhuman)
-
 # 🧠 Infonix Manager
 
-**Infonix Manager** - Rust və Tauri əsasında qurulmuş, Vue.js ilə hazırlanmış sürətli, müasir və çoxplatformalı tapşırıq meneceri tətbiqidir. İstifadəçilərə işləyən prosesləri görmə və "Sonlandır" düyməsi vasitəsilə xüsusi OS xidmətlərini birbaşa dayandırma imkanı verir.
+[![Build](https://img.shields.io/github/actions/workflow/status/nickforhuman/infonix-manager/build.yml?branch=main&label=Build)](https://github.com/nickforhuman/infonix-manager/actions)
+[![License](https://img.shields.io/github/license/nickforhuman/infonix-manager)](./LICENSE)
+[![Issues](https://img.shields.io/github/issues/nickforhuman/infonix-manager)](https://github.com/nickforhuman/infonix-manager/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/nickforhuman/infonix-manager)](https://github.com/nickforhuman/infonix-manager)
 
 **Infonix Manager** is a fast, modern, and native-like cross-platform task manager application built with **Rust**, **Tauri**, and **Vue.js**. It allows users to view and manage running processes with the unique ability to **terminate specific OS services directly** using the "End" button.
 
-> Yüngül. Təhlükəsiz. Funksional. İnkişaf etdiricilər və peşəkarlar üçün hazırlanmışdır.  
 > Lightweight. Secure. Functional. Built for developers and power users.
 
 ---
 
-## 🌐 Dəstəklənən Platformalar | Supported Platforms
+### 🇦🇿 **Qısa Təsvir (Azərbaycanca)**  
+**Infonix Manager** – Rust və Tauri əsasında qurulmuş, Vue.js ilə hazırlanmış sürətli, müasir və çoxplatformalı tapşırıq meneceri tətbiqidir. İstifadəçilərə işləyən prosesləri görmək və "Sonlandır" düyməsi vasitəsilə xüsusi OS xidmətlərini birbaşa dayandırmaq imkanı verir.  
 
-- ✅ Linux
-- ✅ Windows
-- ✅ macOS (beta)
-
----
-
-## 🚀 Xüsusiyyətlər | Features
-
-- 🖥️ **Çoxplatformalı dəstək** | Cross-platform support (Linux, Windows, macOS)
-- ⚙️ **Sistem səviyyəli prosesləri sonlandırma** | End system-level processes or services directly from the UI
-- 🧩 **Rust və Tauri ilə qurulub** | Built with Rust and Tauri for maximum performance and security
-- ⚡ **Vue 3, Vite və Tailwind CSS ilə sürətli interfeys** | Lightning-fast frontend powered by Vue 3, Vite, and Tailwind CSS
-- � **Sadə və intuitiv interfeys** | Clean, intuitive interface with modal dialogs and real-time updates
-- 🔒 **Təhlükəsiz proses idarəetmə** | Secure process control using Rust system APIs
+> Yüngül. Təhlükəsiz. Funksional. İnkişaf etdiricilər və peşəkarlar üçün hazırlanmışdır.
 
 ---
 
-## 🛠 İstifadə olunan Texnologiyalar | Technologies Used
+## 🌐 Supported Platforms | Dəstəklənən Platformalar
 
-| Səviyyə / Layer         | Texnologiya / Tech Stack                          |
-|-------------------------|--------------------------------------------------|
-| Ön tərəf / Frontend      | Vue 3 (Composition API), Vite, Tailwind CSS      |
-| Nüvə / Backend (Core)    | Rust, Tauri                                      |
-| OS İnteqrasiyası / Integration| `sysinfo` və ya oxşar crate-lər / or similar crates for process management |
+- ✅ Linux  
+- ✅ Windows  
+- ✅ macOS *(beta)*
 
 ---
 
-## 📸 Ekran Görüntüləri | Screenshots
+## 🚀 Features | Xüsusiyyətlər
 
-![Əsas İnterfeys / Main UI](./screenshots/2.png)  
-*Proseslərin siyahısı / List of running processes*
-
-![Prosesi Sonlandırma / User](./screenshots/1.png.png)  
-* Əməliyyat sisteminin istifadəçilər / Operation system users*
+- 🖥️ **Cross-platform support** (Linux, Windows, macOS)  
+- ⚙️ **Terminate system-level processes or services** directly from the UI  
+- 🧩 **Built with Rust and Tauri** for high performance and native integration  
+- ⚡ **Lightning-fast frontend** using Vue 3, Vite, and Tailwind CSS  
+- 🧠 **Clean and intuitive UI** with modal dialogs and real-time updates  
+- 🔒 **Secure process control** leveraging low-level Rust system APIs
 
 ---
 
-## 📥 Qurulum | Installation
+## 🛠 Tech Stack | İstifadə olunan Texnologiyalar
+
+| Layer / Səviyyə        | Technology / Texnologiya                          |
+|------------------------|--------------------------------------------------|
+| Frontend / Ön tərəf     | Vue 3 (Composition API), Vite, Tailwind CSS      |
+| Backend / Nüvə         | Rust, Tauri                                      |
+| OS Integration / OS İnteqrasiyası | [`sysinfo`](https://crates.io/crates/sysinfo) or similar crates |
+
+---
+
+## 📸 Screenshots | Ekran Görüntüləri
+
+### 🖼️ Main UI / Əsas İnterfeys  
+![Main UI](./screenshots/2.png)  
+*List of running processes / Proseslərin siyahısı*
+
+### 🖼️ System Users / OS İstifadəçiləri  
+![System Users](./screenshots/1.png.png)  
+*Operating system users and services / Əməliyyat sisteminin istifadəçiləri və xidmətlər*
+
+---
+
+## 📥 Installation | Qurulum
 
 ```bash
-# İnkişaf rejimi / Development mode
+# Development Mode / İnkişaf rejimi
 npm install
 npm run tauri dev
 
-# Produksiya qurulumu / Production build
+# Production Build / Produksiya üçün qurulum
 npm run tauri build
