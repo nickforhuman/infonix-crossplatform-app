@@ -1,3 +1,7 @@
+## Authors
+
+- [@Inal Karakhanli](https://www.github.com/nickforhuman)
+
 # 🧠 Infonix Manager
 
 **Infonix Manager** - Rust və Tauri əsasında qurulmuş, Vue.js ilə hazırlanmış sürətli, müasir və çoxplatformalı tapşırıq meneceri tətbiqidir. İstifadəçilərə işləyən prosesləri görmə və "Sonlandır" düyməsi vasitəsilə xüsusi OS xidmətlərini birbaşa dayandırma imkanı verir.
