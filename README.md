@@ -1,10 +1,5 @@
 # 🧠 Infonix Manager
 
-[![Build](https://img.shields.io/github/actions/workflow/status/nickforhuman/infonix-manager/build.yml?branch=main&label=Build)](https://github.com/nickforhuman/infonix-manager/actions)
-[![License](https://img.shields.io/github/license/nickforhuman/infonix-manager)](./LICENSE)
-[![Issues](https://img.shields.io/github/issues/nickforhuman/infonix-manager)](https://github.com/nickforhuman/infonix-manager/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/nickforhuman/infonix-manager)](https://github.com/nickforhuman/infonix-manager)
-
 **Infonix Manager** is a fast, modern, and native-like cross-platform task manager application built with **Rust**, **Tauri**, and **Vue.js**. It allows users to view and manage running processes with the unique ability to **terminate specific OS services directly** using the "End" button.
 
 > Lightweight. Secure. Functional. Built for developers and power users.
