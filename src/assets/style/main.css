@@ -1,0 +1,8 @@
+@import "./base.css";
+
+@theme {
+    --color-primary: #222;
+    --color-second: #fff;
+    --color-success: #198754;
+    --color-danger: crimson;
+}
