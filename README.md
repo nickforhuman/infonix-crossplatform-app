@@ -54,7 +54,7 @@
 *List of running processes / Proseslərin siyahısı*
 
 ### 🖼️ System Users / OS İstifadəçiləri  
-![System Users](./screenshots/1.png.png)  
+![System Users](./screenshots/1.png)  
 *Operating system users and services / Əməliyyat sisteminin istifadəçiləri və xidmətlər*
 
 ---
